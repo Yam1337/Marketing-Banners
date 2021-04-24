@@ -1,0 +1,201 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bannerBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px;
+  width: 160px;
+  height: 600px;
+  background-color: #ffffff;
+  border: 1px solid #dedede;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 87%;
+  width: 100%;
+  border-bottom: 1px solid #dedede;
+}
+
+.bot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 13%;
+  width: 100%;
+  padding: 5px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 15%;
+}
+
+.bar {
+  background-color: #959595;
+  margin-top: 2px;
+  width: 8px;
+  height: 2px;
+}
+
+.logoContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 85%;
+}
+
+.logo {
+  width: 90%;
+}
+
+.closeBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+  height: 5%;
+  padding: 5px 5px 0px 0px;
+}
+
+.closeButton {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 12px;
+  padding: 0px;
+  background: none;
+  border: none;
+  color: #767676;
+}
+
+.closeButton:active {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+.offer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 147px;
+  height: 85%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.offerButtonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 10%;
+}
+
+.offerButton {
+  padding: 10px 35px;
+  border: none;
+  background-color: #ef4136;
+  color: #ffffff;
+}
+
+.offerButton:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.offerImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 147px;
+}
+
+.offerPrice {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  width: 147px;
+}
+
+.selectedOffers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -ms-scroll-snap-type: mandatory;
+      scroll-snap-type: mandatory;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 85%;
+  width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */

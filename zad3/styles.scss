@@ -1,0 +1,44 @@
+.counterBody {
+  width: 400px;
+  height: 100px;
+  background-color: #ffffff;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dedede;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  font-size: 18px;
+}
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 40%;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  width: 80%;
+}
+.footer {
+  height: 10%;
+  width: 100%;
+}
+.bar {
+  background-color: #959595;
+  margin-top: 2px;
+  width: 8px;
+  height: 2px;
+}

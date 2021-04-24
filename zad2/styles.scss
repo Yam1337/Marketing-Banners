@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+.bannerBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  width: 160px;
+  height: 600px;
+  background-color: #ffffff;
+  border: 1px solid #dedede;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 87%;
+  width: 100%;
+  border-bottom: 1px solid #dedede;
+}
+.bot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 13%;
+  width: 100%;
+  padding: 5px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 15%;
+}
+.bar {
+  background-color: #959595;
+  margin-top: 2px;
+  width: 8px;
+  height: 2px;
+}
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 85%;
+}
+.logo {
+  width: 90%;
+}
+.closeBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+  height: 5%;
+  padding: 5px 5px 0px 0px;
+}
+.closeButton {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 12px;
+  padding: 0px;
+  background: none;
+  border: none;
+  color: #767676;
+}
+.closeButton:active {
+  transform: scale(0.8);
+}
+.offer {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 147px;
+  height: 85%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.offerButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+}
+.offerButton {
+  padding: 10px 35px;
+  border: none;
+  background-color: #ef4136;
+  color: #ffffff;
+}
+.offerButton:active {
+  transform: scale(0.95);
+}
+.offerImg {
+  display: flex;
+  justify-content: center;
+  width: 147px;
+}
+.offerPrice {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  width: 147px;
+}
+.selectedOffers {
+  display: flex;
+  overflow: hidden;
+  scroll-snap-type: mandatory;
+  justify-content: space-between;
+  height: 85%;
+  width: 100%;
+}
